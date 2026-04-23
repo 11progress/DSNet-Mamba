@@ -138,7 +138,7 @@ class SPASPP_VSS(nn.Module):
     SPASPP-M: Mamba-Enhanced Serial-Parallel Spatial Pyramid Pooling.
     Replaces serial atrous convolutions with sequential VSSBlocks.
     """
-    def __init__(self, in_planes, inter_planes, out_planes, depth: int = 4,
+    def __init__(self, in_planes, inter_planes, out_planes, depth: int = 2,
                  drop_path: float = 0.0, d_state: int = 16):
         super().__init__()
         assert 1 <= depth <= 4, "depth must be between 1 and 4"
