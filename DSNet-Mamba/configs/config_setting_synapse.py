@@ -27,7 +27,7 @@ class setting_config:
         'input_channels': 1,
         'model_name': 's128',
         # DSNet backbone pretrained weights (ImageNet)
-        'dsnet_pretrained_path': './pre_trained_weights/dsnet_pretrained.pth',
+        'dsnet_pretrained_path': './pre_trained_weights/dhsnet_catnormal_wider_93.pth',
         # VMamba-Small pretrained weights
         'vmunet_pretrained_path': './pre_trained_weights/vmamba_small_e238_ema.pth',
     }

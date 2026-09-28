@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Datasets and outputs
+data/
+results/
+runs/
+outputs/
+logs/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

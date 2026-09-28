@@ -1,0 +1,35 @@
+# Tested base environment: Python 3.8, CUDA 11.7
+
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+# PyTorch
+torch==1.13.0
+torchvision==0.14.0
+torchaudio==0.13.0
+
+# VMamba / selective scan
+packaging
+ninja
+timm==0.4.12
+einops
+triton==2.0.0
+causal-conv1d==1.0.0
+mamba-ssm==1.0.1
+
+# Scientific computing and datasets
+numpy<2.0
+scipy
+scikit-learn
+scikit-image
+h5py
+Pillow
+
+# Medical-image processing and evaluation
+SimpleITK
+MedPy
+
+# Training, visualization, and profiling
+matplotlib
+tensorboardX
+tqdm
+thop
